@@ -1,4 +1,3 @@
-# from basis import Basis
 
 
 class Bed:
