@@ -9,6 +9,10 @@ def read_root():
 
 @app.post("/assignWithCsv")
 def upload_csv(csv_file:UploadFile):
-    return text_to_object(csv_to_text(csv_file))
+    text_to_object(csv_to_text(csv_file))
+    create_beds_list()
+    create_waiting_list()
+    assignment()
+    return beds
 
 

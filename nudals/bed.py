@@ -1,7 +1,7 @@
-from basis import Basis
+# from basis import Basis
 
 
-class Bed(Basis):
+class Bed:
     def __init__(self,building_number,number_of_room,number_of_bed, soldier_number = None):
         self.building_number = building_number
         self.number_of_room = number_of_room
