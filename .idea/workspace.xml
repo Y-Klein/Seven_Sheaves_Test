@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1817d445-841e-41db-b4f3-28a4dba7a7de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nudals/basis.py" beforeDir="false" afterPath="$PROJECT_DIR$/nudals/basis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nudals/bed.py" beforeDir="false" afterPath="$PROJECT_DIR$/nudals/bed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nudals/soldier.py" beforeDir="false" afterPath="$PROJECT_DIR$/nudals/soldier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nudals/structure.py" beforeDir="false" afterPath="$PROJECT_DIR$/nudals/structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logik/stage_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/logik/stage_A.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.app.executor": "Run",
     "Python.bed.executor": "Run",
+    "Python.stage_A.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "dev",
