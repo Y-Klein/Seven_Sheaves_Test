@@ -1,5 +1,5 @@
 from fastapi import FastAPI ,UploadFile
-from logik.stage_A import csv_to_text
+from logik.stage_A import *
 app = FastAPI()
 
 @app.get("/")
@@ -9,6 +9,6 @@ def read_root():
 
 @app.post("/assignWithCsv")
 def upload_csv(csv_file:UploadFile):
-    return csv_to_text(csv_file)
+    return text_to_object(csv_to_text(csv_file))
 
 
