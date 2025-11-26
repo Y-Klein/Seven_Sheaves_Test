@@ -6,6 +6,7 @@ from nudals.bed import Bed
 soldiers = []
 waiting_list = []
 beds = []
+were_scheduled = []
 
 def csv_to_text(file):
     content = file.file.read().decode("utf-8")
@@ -49,10 +50,15 @@ def assignment():
             beds[bed].soldier_number = first.personal_number
             first.building_number = beds[bed].building_number
             first.room_number = beds[bed].number_of_room
+            were_scheduled.append(first)
 
 
-def return_result():
-    pass
-
+def return_result(csv_file):
+    text_to_object(csv_to_text(csv_file))
+    create_beds_list()
+    create_waiting_list()
+    assignment()
+    result =  {"Were scheduled":len(were_scheduled),"waiting":len(waiting_list),"soldiers were scheduled":were_scheduled,"soldiers were waiting":waiting_list}
+    return result
 
 
